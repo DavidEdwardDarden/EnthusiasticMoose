@@ -8,10 +8,6 @@ void Main()
              Console.WriteLine("--------------------------------------------");
      Console.WriteLine();
 
-// As a question
-CanadaQuestion();
-
-
 void CanadaQuestion()
 {
     bool isTrue = MooseAsks("Is Canada real?");
@@ -121,8 +117,8 @@ bool MooseAsks(string question)
     }
 }
 
-bool isTrue = MooseAsks("Is Canada real?");
-Console.WriteLine(isTrue);
+// bool isTrue = MooseAsks("Is Canada real?");
+// Console.WriteLine(isTrue);
 
 // Ask some questions
 CanadaQuestion();
